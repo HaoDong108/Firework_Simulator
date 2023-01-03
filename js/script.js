@@ -2120,7 +2120,7 @@ const Spark = {
 
 
 const soundManager = {
-	baseURL: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/329180/',
+	baseURL: './audio/',
 	ctx: new (window.AudioContext || window.webkitAudioContext),
 	sources: {
 		lift: {
